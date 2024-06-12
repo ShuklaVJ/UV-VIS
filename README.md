@@ -4,7 +4,7 @@ This repository contains data and analysis scripts for UV-Vis-NIR spectroscopy u
 
 ## Project Structure
 
-- `data/`: Contains the raw and processed CSV files.
+- `data/`: Contains the processed CSV files.
 - `scripts/`: Contains the Python scripts used for analysis.
 - `results/`: Plots and results from the analysis.
 
