@@ -1,12 +1,11 @@
 # UV-Vis-NIR Spectroscopy Analysis
 
-This repository contains data and analysis scripts for UV-Vis-NIR spectroscopy using the Simadzhu 1800 model. The analysis involves baseline correction, Standard Normal Variate (SNV) transformation, and detrending with a 2nd order polynomial.
+This repository contains data and analysis scripts for UV-Vis-NIR spectroscopy using the Simadzhu 1800 model. The analysis involves baseline correction and detrending with a 2nd order polynomial transformation.
 
 ## Project Structure
 
 - `data/`: Contains the raw and processed CSV files.
 - `scripts/`: Contains the Python scripts used for analysis.
-- `notebooks/`: Jupyter notebooks for interactive analysis (if any).
 - `results/`: Plots and results from the analysis.
 
 ## Data
@@ -17,7 +16,7 @@ The data is split into three segments:
 - `NIRsegment`: 801-1100 nm
 
 Each segment has been processed using two methods:
-- Standard Normal Variate (SNV)
+- Adoptive baseline correction
 - Detrending with a 2nd order polynomial
 
 ## Analysis
