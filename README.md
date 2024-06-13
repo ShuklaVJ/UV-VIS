@@ -1,4 +1,4 @@
-# UV-Vis-NIR Spectroscopy Analysis
+# UV-VIS-NIR Spectroscopy Analysis
 
 This repository contains data and analysis scripts for UV-Vis-NIR spectroscopy using the Simadzhu 1800 model. The analysis involves baseline correction and detrending with a 2nd order polynomial transformation.
 
